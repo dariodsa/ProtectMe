@@ -8,7 +8,6 @@ function protectMe()
 		  //alert(element.id+" -> "+element.value);
 		  if(element.type=="button" || element.type=="submit")continue;
 		  document.getElementById(element.id).style.display="none";
-		  
 		  if(element.id.length>0)
 		  {
 				document.getElementById(element.id).value=enctypeMe(element.value);
